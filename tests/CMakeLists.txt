@@ -61,6 +61,9 @@ unit_test(test_data)
 unit_test(test_network_types)
 unit_test(test_radix_tree)
 
+unit_test(test_listen)
+unit_test(test_send)
+
 unit_test_python(test_messages.py)
 unit_test_python(test_store.py)
 
@@ -70,4 +73,4 @@ unit_test(test_data_c)
 unit_test(test_print_c)
 unit_test(test_print_remote_c)
 unit_test(test_network_types_c)
-unit_test(test_store_c)
+
